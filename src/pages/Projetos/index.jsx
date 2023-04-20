@@ -40,7 +40,7 @@ export default function Projetos( { funcEsconderOpcoes } ) {
                 <li>
                     <ProjetosFeitos 
                         href="https://github.com/D4T10R/combo_plus"
-                        src="img/img-projetos/img-combo-alura.svg"
+                        src="/img/img-projetos/img-combo-alura.svg"
                         alt="Imagem calculadora"
                         titulo="Combo"
                         frase="Primeiro projeto que fiz em HTML"
@@ -50,7 +50,7 @@ export default function Projetos( { funcEsconderOpcoes } ) {
                 <li>
                     <ProjetosFeitos 
                         href="https://www.linkedin.com/posts/leonardo-weder-veiga-duca-a1bb531b6_projeto-ecopoint-centro-universit%C3%A1rio-newton-activity-7001693033763115008-E14u?utm_source=share&utm_medium=member_desktop"
-                        src="img/img-projetos/ecopoint-img.svg"
+                        src="/img/img-projetos/ecopoint-img.svg"
                         alt="Imagem do projeto Ecopoint"
                         titulo="Ecopoint"
                         frase="Projeto completo no linkedin"
@@ -60,7 +60,7 @@ export default function Projetos( { funcEsconderOpcoes } ) {
                 <li>
                     <ProjetosFeitos 
                         href="https://www.tiktok.com/@d4t10r?lang=pt-BR"
-                        src="img/img-projetos/tiktok-img.svg"
+                        src="/img/img-projetos/tiktok-img.svg"
                         alt="Imagem do meu Tik-Tok"
                         titulo="tik-tok"
                         frase="Projeto pessoal no tiktok"
@@ -70,7 +70,7 @@ export default function Projetos( { funcEsconderOpcoes } ) {
                 <li>
                     <ProjetosFeitos 
                         href="/projetos/Calculadora"
-                        src="img/img-projetos/calculadora-print.svg"
+                        src="/img/img-projetos/calculadora-print.svg"
                         alt="Imagem da minha Calculadora"
                         titulo="Calculadora"
                         frase="Projetetinho basico"
@@ -80,7 +80,7 @@ export default function Projetos( { funcEsconderOpcoes } ) {
                 <li>
                     <ProjetosFeitos 
                         href="#"
-                        src="img/img-projetos/quadradinho-print.svg"
+                        src="/img/img-projetos/quadradinho-print.svg"
                         alt="Imagem do jogo do quadradinho"
                         titulo="Quadradinho"
                         frase="Projetetinho para se divertir"

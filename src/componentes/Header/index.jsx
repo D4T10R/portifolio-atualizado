@@ -17,6 +17,10 @@ const ConjuntoOpcoes = styled.div`
         width: 45%;
         top: 1%;
         border-radius: 10px;
+        
+        li:hover {
+                color: red;
+        }
 
         ul {
                 list-style-type: none;
@@ -57,6 +61,10 @@ const ConjuntoOpcoes = styled.div`
                         margin: 0 0.5em;
                         text-transform: uppercase;
                 }
+
+
+                position: fixed;
+                background: var(--cor-fundo);
 
         }
 
