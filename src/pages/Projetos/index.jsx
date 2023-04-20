@@ -3,6 +3,12 @@ import React from 'react'
 import styled from 'styled-components'
 import ProjetosFeitos from '../../componentes/Projetos-feitos'
 
+import imgComboloAlura from './Img-projetos/img-combo-alura.svg'
+import imgEcopoint from './Img-projetos/ecopoint-img.svg'
+import imgTikTok from './Img-projetos/tiktok-img.svg'
+import imgCalculadora from './Img-projetos/calculadora-print.svg'
+import imgQuadradinho from './Img-projetos/quadradinho-print.svg'
+
 const StyledProjetos = styled.section`
 
 
@@ -40,7 +46,7 @@ export default function Projetos( { funcEsconderOpcoes } ) {
                 <li>
                     <ProjetosFeitos 
                         href="https://github.com/D4T10R/combo_plus"
-                        src="/img/img-projetos/img-combo-alura.svg"
+                        src={imgComboloAlura}
                         alt="Imagem calculadora"
                         titulo="Combo"
                         frase="Primeiro projeto que fiz em HTML"
@@ -50,7 +56,7 @@ export default function Projetos( { funcEsconderOpcoes } ) {
                 <li>
                     <ProjetosFeitos 
                         href="https://www.linkedin.com/posts/leonardo-weder-veiga-duca-a1bb531b6_projeto-ecopoint-centro-universit%C3%A1rio-newton-activity-7001693033763115008-E14u?utm_source=share&utm_medium=member_desktop"
-                        src="/img/img-projetos/ecopoint-img.svg"
+                        src={imgEcopoint}
                         alt="Imagem do projeto Ecopoint"
                         titulo="Ecopoint"
                         frase="Projeto completo no linkedin"
@@ -60,7 +66,7 @@ export default function Projetos( { funcEsconderOpcoes } ) {
                 <li>
                     <ProjetosFeitos 
                         href="https://www.tiktok.com/@d4t10r?lang=pt-BR"
-                        src="/img/img-projetos/tiktok-img.svg"
+                        src={imgTikTok}
                         alt="Imagem do meu Tik-Tok"
                         titulo="tik-tok"
                         frase="Projeto pessoal no tiktok"
@@ -70,7 +76,7 @@ export default function Projetos( { funcEsconderOpcoes } ) {
                 <li>
                     <ProjetosFeitos 
                         href="/projetos/Calculadora"
-                        src="/img/img-projetos/calculadora-print.svg"
+                        src={imgCalculadora}
                         alt="Imagem da minha Calculadora"
                         titulo="Calculadora"
                         frase="Projetetinho basico"
@@ -80,7 +86,7 @@ export default function Projetos( { funcEsconderOpcoes } ) {
                 <li>
                     <ProjetosFeitos 
                         href="#"
-                        src="/img/img-projetos/quadradinho-print.svg"
+                        src={imgQuadradinho}
                         alt="Imagem do jogo do quadradinho"
                         titulo="Quadradinho"
                         frase="Projetetinho para se divertir"
