@@ -29,7 +29,12 @@ export const GlobalStyle = createGlobalStyle`
 
         --cor-campo-resultado-calculadora: rgb(240, 248, 255);
     }
-
+    :root {
+        --cor-fundo-quadrado: rgb(88, 166, 255);
+        --cor-quadradinho: green;
+        --cor-caixa: rgb(119, 95, 175);
+        --cor-bolinha: red;
+    }
 
     * {
         margin: 0;

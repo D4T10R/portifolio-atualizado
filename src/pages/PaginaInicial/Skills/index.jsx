@@ -18,6 +18,10 @@ const SkillsEstilos = styled.section`
         margin-bottom: 1.5em;
     }
 
+    .skills__listas li {
+        width: 30%;
+    }
+
     @media screen and (min-width: 720px) {
 
         .skills__listas li {
@@ -34,7 +38,6 @@ const SkillsEstilos = styled.section`
     @media screen and (min-width: 1220px) {
 
         .skills__listas li {
-
             width: 20%;
         }
 

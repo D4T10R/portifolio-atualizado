@@ -7,7 +7,6 @@ import MenuLink from "../MenuLink";
 
 
 const ConjuntoOpcoes = styled.div`
-        
 
         display: none;
         position: fixed;

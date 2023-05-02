@@ -24,13 +24,13 @@ const SkillsEstilos = styled.section`
 
     @media screen and (min-width: 720px) {
         .skills__listas img {
-            width: 50%;
+            width: 40%;
         }
     }
 
     @media screen and (min-width: 1220px) {
         .skills__listas img {
-            width: 80%;
+            width: 35%;
         }
     }
 `

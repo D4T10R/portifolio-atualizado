@@ -114,13 +114,14 @@ const Apresentacao = () => {
                     <h1 className="apresentacao__descricao__titulo-principal">DATIOR</h1>
                     <h2 className="apresentacao__descricao__titulo-secundario">Leonardo Weder</h2>
                     <p className="apresentacao__descricao__texto">Olá, sou um front-end. Buscando inovação e evolução.</p>
-                    <a 
+                    <a
                         className="meu-curriculo"
                         href={curriculo} 
-                        download='Leonardo-Weder-CV.pdf'                
+                        target="_blank"
                     >
                         Meu curriculo
                     </a>
+
                 </div>
             </ApresentacaoSection>
         </>

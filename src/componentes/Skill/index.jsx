@@ -1,7 +1,12 @@
 import styled from "styled-components"
 
 const SkillEstilo = styled.li`
-    width: 10%;
+
+    @media screen and (max-width: 380px) {
+        width: 51%;
+    }
+
+    width: 30%;
     margin: 10px 0;
 
     p {
@@ -10,15 +15,17 @@ const SkillEstilo = styled.li`
 
     @media screen and (min-width: 720px) {
         justify-content: center;
+        width: 28%;
 
         .skills__listas img {
-            width: 50%;
+            width: 20%;
         }
     }
 
     @media screen and (min-width: 1220px) {
+        width: 30%;
         .skills__listas img {
-            width: 80%;
+            width: 100%;
         }
     }
 `
