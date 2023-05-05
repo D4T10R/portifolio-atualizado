@@ -36,14 +36,14 @@ const StyledCampoFormulario = styled.div`
 
 `
 
-export default function CampoFormulario( { lacoFor, titulo, tipo } ) {
+export default function CampoFormulario( { lacoFor, titulo, tipo, requerid = '' } ) {
     return (
     
         <StyledCampoFormulario>
             <label htmlFor={lacoFor}>
                 {titulo}
                 <div className="inputs__campos">
-                    <input type={tipo} name="email" id="email" />
+                    <input type={tipo} name="email" id="email" required={requerid} />
                 </div>
             </label>
         </StyledCampoFormulario>

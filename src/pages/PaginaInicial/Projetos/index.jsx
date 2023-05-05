@@ -47,12 +47,12 @@ const Projetos = () => {
         
             <div className="projetos__div">
                 <ProjetosFeitos 
-                    href="../css/projetos/cobrinha/cobrinha.html"
-                    src="/img/Img-projetos/quadradinho-print.svg"
-                    alt="imagem calculadora"
-                    titulo="quadradinho"
-                    frase="Projetetinho para se divertir"
-                    descricao="fiz esse projeto para me divertir e exercitar lógica de programação. Possivelmente posso no futuro fazer alterações."
+                    href="/projetos/Calculadora"
+                    src="/img/Img-projetos/calculadora-print.svg"
+                    alt="Imagem da minha Calculadora"
+                    titulo="Calculadora"
+                    frase="Projetetinho basico"
+                    descricao="fiz esse projeto para me divertir e exercitar sobre table e JS. Possivelmente posso no futuro fazer alterações."
                 />
                 <ProjetosFeitos 
                     href="https://www.linkedin.com/posts/leonardo-weder-veiga-duca-a1bb531b6_projeto-ecopoint-centro-universit%C3%A1rio-newton-activity-7001693033763115008-E14u?utm_source=share&utm_medium=member_desktop"

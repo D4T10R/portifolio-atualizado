@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react';
 import CampoFormulario from '../../componentes/CampoFormulario'
 import styled from 'styled-components'
 
@@ -30,14 +30,32 @@ const StyledContatos = styled.section`
 `
 
 export default function Contatos() {
+
+    const [alerta, setAlerta] = useState(false);
+
+    function mostrarAlerta(mensagem) {
+        if (alerta === false) {
+            alert(mensagem)
+            setAlerta(true)
+        }
+    }
+
     return (
     
         <StyledContatos>
             <h2 className="contato-titulo titulos">QUER QUE TE CHAME?</h2>
             <form action="" id="form" className="formulario">
-                <CampoFormulario lacoFor="email" titulo="Email" tipo="email" />
-                <CampoFormulario lacoFor="celular" titulo="Celular" tipo="number" />
-                <input type="submit" placeholder="Enviar" className="enviar" />
+                <CampoFormulario lacoFor="email" titulo="Email" tipo="email" requerid='required'/>
+                <CampoFormulario lacoFor="celular" titulo="Celular" tipo="number" requerid='required'/>
+                <input 
+                    type="submit" 
+                    placeholder="Enviar" 
+                    className="enviar" 
+                    onClick={ () => {
+                        mostrarAlerta('Estou trabalhando no formulário, favor entrar em contato pelo email: leonardowederveiga@yahoo.com')
+
+                    }}
+                />
             </form>
         </StyledContatos>
     
