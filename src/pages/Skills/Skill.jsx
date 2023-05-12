@@ -65,14 +65,14 @@ export default function Skills( { funcEsconderOpcoes } ) {
                     </ul>
                     <ul className="skills__listas">
                         <Skill 
-                        src="/img/Icones-skills/icone-git.svg" 
-                        alt="Icone GIT"
-                        texto="GIT" 
+                            src="/img/Icones-skills/icone-git.svg" 
+                            alt="Icone GIT"
+                            texto="GIT" 
                         />
-                        <Skill 
-                        src="/img/Icones-skills/icone-sql.svg" 
-                        alt="Icone SQL"
-                        texto="SQL" 
+                            <Skill 
+                            src="/img/Icones-skills/icone-sql.svg" 
+                            alt="Icone SQL"
+                            texto="SQL" 
                         />
                         <Skill 
                             src="/img/Icones-skills/icone-react.svg"
@@ -83,19 +83,26 @@ export default function Skills( { funcEsconderOpcoes } ) {
                     </ul>
                     <ul className="skills__listas">
                         <Skill 
-                        src="/img/Icones-skills/icone-vegas.svg" 
-                        alt="Icone Sony Vegas"
-                        texto="Edição video" 
+                            src="/img/Icones-skills/icone-vegas.svg" 
+                            alt="Icone Sony Vegas"
+                            texto="Edição video" 
                         />
                         <Skill 
-                        src="/img/Icones-skills/icone-linux.svg" 
-                        alt="Icone Linux"
-                        texto="LINUX" 
+                            src="/img/Icones-skills/icone-linux.svg" 
+                            alt="Icone Linux"
+                            texto="LINUX" 
                         /> 
                         <Skill 
                             src="/img/Icones-skills/icone-java.svg" 
                             alt="Icone JAVA"
                             texto="JAVA"
+                        />
+                    </ul>
+                    <ul className='skills__listas'>
+                        <Skill 
+                            src="/img/Icones-skills/scrum.svg"
+                            alt="Icone JAVA"
+                            texto="SCRUM"
                         />
                     </ul>
                 </div>
