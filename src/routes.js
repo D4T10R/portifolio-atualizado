@@ -13,6 +13,7 @@ import Projetos from './pages/Projetos';
 import PaginaErro from './pages/PaginaErro';
 import Contatos from './pages/Contatos';
 import ProjetoEscolhido from './projetos';
+import Certificados from './pages/Certificados';
 
 
 function AppRoutes() {
@@ -47,6 +48,7 @@ function AppRoutes() {
             <Route path='/skills' element={<Skills funcEsconderOpcoes={esconderOpcoes}/>}/>
             <Route path='/projetos' element={<Projetos funcEsconderOpcoes={esconderOpcoes}/>}/>
             <Route path='/projetos/:id' element={<ProjetoEscolhido />}/>
+            <Route path='/certificados' element={<Certificados funcEsconderOpcoes={esconderOpcoes}/>}/>
 
             <Route path='/contatos' element={<Contatos funcEsconderOpcoes={esconderOpcoes}/>}/>
           </Route>

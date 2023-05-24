@@ -13,7 +13,7 @@ const ConjuntoOpcoes = styled.div`
         background: #2D3061;
         border: 5px solid black;
         padding: 1em 0 0 1em    ;
-        width: 45%;
+        width: 50%;
         top: 1%;
         border-radius: 10px;
         
@@ -31,6 +31,7 @@ const ConjuntoOpcoes = styled.div`
                 font-family: 'Nova Round', cursive;
                 font-size: 32px;
                 margin-bottom: 0.3em;
+                text-align: center;
         }
 
         @media screen and (min-width: 720px) {
@@ -155,6 +156,13 @@ function Header({opcoesRef, funcMostrarOpcoes}) {
                                                         to='/Contatos'
                                                 >
                                                         Contatos
+                                                </MenuLink>
+                                        </li>
+                                        <li>
+                                                <MenuLink 
+                                                        to='/certificados'
+                                                >
+                                                        Certificados
                                                 </MenuLink>
                                         </li>
                                 </ul>
