@@ -17,14 +17,11 @@ const CalculoEstilo = styled.li`
 
     .campo-texto {
         position: absolute;
-        left: 30%;
+        left: 25%;
         top: 30%;
         display: flex;
-        position: absolute;
-        justify-content: center;
-        align-items: center;
-        width: 40%;
-        height: 30%;
+        width: 50%;
+        height: 50%;
         background: #080959;
         border-radius: 30px;
         border: 2px solid black;
@@ -59,34 +56,6 @@ const CalculoEstilo = styled.li`
         background: #8a0f7e;
         font-weight: 600;
     }
-
-    .conjunto-campo-numeros {
-        display: flex;
-        justify-content: space-evenly;
-        margin-bottom: 2em;
-    }
-
-    .campo-inserir-dados {
-        display: inline-block;
-        margin-top: 3em;
-        width: 40%;
-    }
-
-    .campo-inserir-dados input {
-        margin: 0 2%;
-        width: 65%;
-        text-align: center;
-        font-size: 20px;
-        color: white;
-        outline: none; /* remove a borda de seleção */
-        background: none;
-        border: none;
-        border-bottom: 2px solid white;
-    }
-
-    .resultado {
-        margin-top: 1em;
-    }
 `
 
 function CalculoGeometrico(props) {
@@ -114,7 +83,7 @@ function CalculoGeometrico(props) {
             setCalculo(valor1 * valor2)
         } else if (props.forma == 'triangulo-escaleno') {
             let semiPerimeto = valor1 + valor2 + valor3 / 2
-            setCalculo(Math.sqrt(semiPerimeto * (semiPerimeto - valor1) * (semiPerimeto - valor2) * (semiPerimeto - valor3)))
+            setCalculo(Math.trunc(Math.sqrt(semiPerimeto * (semiPerimeto - valor1) * (semiPerimeto - valor2) * (semiPerimeto - valor3))))
         } else if (props.forma == 'pentagono') {
             setCalculo(valor1 * 5 / 2 * valor2)
         } else if (props.forma == 'hexagono') {
@@ -126,7 +95,10 @@ function CalculoGeometrico(props) {
     }
 
     function calcularArea() {
-        QuadradoCalculoRef.current.style.display = 'block'
+        console.log(QuadradoCalculoRef.current.style.display)
+        if (QuadradoCalculoRef.current.style.display != 'block') {
+            QuadradoCalculoRef.current.style.display = 'block'
+        }
     }
 
     function someCalcularArea() {

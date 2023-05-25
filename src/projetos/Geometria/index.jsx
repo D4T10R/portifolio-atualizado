@@ -49,7 +49,7 @@ function Geometria() {
                         valor1="LADO 1"
                         valor2="LADO 2"
                         valor3="LADO 3"
-                        forma="triangulo"
+                        forma="triangulo-escaleno"
                     />
 
                     <CalculoGeometrico 
