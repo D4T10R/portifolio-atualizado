@@ -26,6 +26,25 @@ const CertificadosEstilo = styled.section`
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
+        list-style: none;
+    }
+
+    li {
+        display: flex;
+        width: 48%;
+        justify-content: center;
+    }
+
+    @media screen and (min-width: 720px) {
+        li {
+            width: 33%;
+        }
+    }
+
+    @media screen and (min-width: 1220px){
+        li {
+            width: 20%;
+        }
     }
 `
 

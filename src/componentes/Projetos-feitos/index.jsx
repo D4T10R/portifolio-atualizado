@@ -100,10 +100,7 @@ const LinkProjeto = styled(Link)`
             font-size: 18px;
         }
 
-
     }
-
-
 
     @media screen and (min-width: 1220px) {
 
@@ -122,10 +119,7 @@ const LinkProjeto = styled(Link)`
             width: 300px;
             height: 430px;
         }   
-
     }
-
-
 `
 
 const ProjetosFeitos = ({href, src, alt, titulo, frase, descricao}) => {

@@ -9,9 +9,8 @@ const CertificadoEstilo = styled.div`
     padding: 0em 1.2em;
     text-align: center;
     overflow-wrap: break-word;  // Faer o <p> quebrar de linha quando ficar maior que a largura da div
-    width: 30%;
+    width: 60%;
     height: 250px;
-    gap: 0.5em;
     background: rgba(0, 15, 149, 0.5);;
 
     img {

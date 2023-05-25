@@ -43,7 +43,8 @@ const ConjuntoOpcoes = styled.div`
         }
       
         @media screen and (min-width: 1220px) {
-                position: absolute;
+                right: 20%;
+                position: fixed;
                 background-color: var(--cor-fundo);
                 display: block;
                 background: none;
@@ -62,21 +63,12 @@ const ConjuntoOpcoes = styled.div`
                         text-transform: uppercase;
                 }
 
-
-                position: fixed;
-                background: var(--cor-fundo);
-
         }
-
-       
-
 `
 const Cabecalho = styled.header`
         background: var(--cor-fundo);
         border-radius: 10px 10px 0px 0px;
         height: 4em;
-
-        
 
         span {
                 position: fixed;
