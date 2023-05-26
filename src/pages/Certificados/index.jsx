@@ -6,7 +6,15 @@ import htmlCssRed from "./img/html-css-red.svg"
 import HtmlCssPink from "./img/html-css-pink.svg"
 import htmlCssPratica from "./img/html-css-pratica.svg"
 import htmlCssResponsivo from "./img/html-css-responsivo.svg" 
-
+import jsOrdenacao from "./img/js-yellow.svg"
+import jsObjeto from "./img/js-green.svg"
+import jsArrays from "./img/js-purple.svg"
+import jsBasico from "./img/js-baby-blue.svg"
+import jsOrientadoObjeto from "./img/js-orientado-objeto.svg"
+import jsManipula from "./img/js-manipula.svg"
+import jsPaginas from "./img/js-paginas.svg"
+import jsTrataDadosApi from "./img/js-api.svg" 
+import jsMetodosArrays from "./img/js-metodos-arrays.svg"
 
 const CertificadosEstilo = styled.section`
     background: var(--cor-fundo);
@@ -116,6 +124,66 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                    <Certificado
                         img={HtmlCssPink}
                         titulo="HTML e CSS: Classes, posicionamento e Flexbox"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={jsOrdenacao}
+                        titulo="JavaScript I: algoritmos de ordenação"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={jsObjeto}
+                        titulo="Algoritmos com JavaScript: Ordenação e busca"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={jsArrays}
+                        titulo="JavaScript: Arrays"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={jsMetodosArrays}
+                        titulo="JavaScript: métodos de array"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={jsBasico}
+                        titulo="JavaScript: tipos, variáveis e funções"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={jsObjeto}
+                        titulo="JavaScript: objeto"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={jsOrientadoObjeto}
+                        titulo="JavaScript: programação orientada a objetos"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={jsManipula}
+                        titulo="JavaScript: manipulando o DOM"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={jsPaginas}
+                        titulo="JavaScript para Web: Crie páginas dinâmicas"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={jsTrataDadosApi}
+                        titulo="JavaScript: consumindo e tratando dados de uma API"
                     />
                 </li>
             </ul>            
