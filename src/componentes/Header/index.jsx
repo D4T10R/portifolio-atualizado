@@ -43,15 +43,14 @@ const ConjuntoOpcoes = styled.div`
         }
       
         @media screen and (min-width: 1220px) {
-                right: 20%;
+                right: 1%;
                 position: fixed;
                 background-color: var(--cor-fundo);
                 display: block;
-                background: none;
                 border: none;
                 box-sizing: none;
-                padding: 1em;
-                width: 750px;
+                padding: 1em 0;
+                width: 80%;
                 text-align: right;
 
                 ul {
@@ -63,6 +62,14 @@ const ConjuntoOpcoes = styled.div`
                         text-transform: uppercase;
                 }
 
+        }
+
+        @media screen and (min-width: 1440px) {
+                width: 70%;
+        } 
+
+        @media screen and (min-width: 1555px) {
+                width: 65%;
         }
 `
 const Cabecalho = styled.header`
