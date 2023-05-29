@@ -15,6 +15,17 @@ import jsManipula from "./img/js-manipula.svg"
 import jsPaginas from "./img/js-paginas.svg"
 import jsTrataDadosApi from "./img/js-api.svg" 
 import jsMetodosArrays from "./img/js-metodos-arrays.svg"
+import reactComponents from "./img/react-componentes.svg"
+import reactPraticando from "./img/react-praticando.svg"
+import reactDesenvolvendo from "./img/react-desenvolvendo.svg"
+import reactEmotion from "./img/react-emotion.svg"
+import reactArquivosEstaticos from "./img/react-estaticos.svg"
+import reactRouter from "./img/react-router.svg"
+import reactFullStack from "./img/react-full.svg"
+import reactTypeScript from "./img/react-typeScript.svg"
+import pythonMundo1 from "./img/python-mundo1.svg"
+import pythonMundo2 from "./img/python-mundo2.svg"
+import pythonMundo3 from "./img/python-mundo3.svg"
 
 const CertificadosEstilo = styled.section`
     background: var(--cor-fundo);
@@ -184,6 +195,72 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                    <Certificado
                         img={jsTrataDadosApi}
                         titulo="JavaScript: consumindo e tratando dados de uma API"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={reactComponents}
+                        titulo="React: como os componentes funcionam"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={reactPraticando}
+                        titulo="React: praticando React com Js"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={reactDesenvolvendo}
+                        titulo="React: desenvolvendo com JavaScript"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={reactEmotion}
+                        titulo="React: desenvolvendo com JavaScript"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={reactArquivosEstaticos}
+                        titulo="React com JavaScript: arquivos estáticos"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={reactRouter}
+                        titulo="React: desenvolvendo em React Router com JavaScript"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={reactFullStack}
+                        titulo="React: comece seu projeto full stack"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={reactTypeScript}
+                        titulo="React: migrando para TypeScript"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={pythonMundo1}
+                        titulo="Python 3 – Mundo 1"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={pythonMundo2}
+                        titulo="Python 3 – Mundo 2"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={pythonMundo3}
+                        titulo="Python 3 – Mundo 3"
                     />
                 </li>
             </ul>            
