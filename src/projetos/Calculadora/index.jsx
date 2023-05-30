@@ -3,15 +3,12 @@ import styled from "styled-components"
 
 
 const CalculadoraEstilo = styled.section`
-
-    
     
     @keyframes textoAparecendo {
         from {font-size: 0px;}
         to {font-size: 40px;}
     }
-
-
+    
     background: var(--cor-de-fundo-calculadora);
     height: 100vh;
 
@@ -23,13 +20,12 @@ const CalculadoraEstilo = styled.section`
         animation-name: textoAparecendo;
         animation-duration: 2s;
     }
-
+    
     .titulo.style {
         animation: 0.7s ease-in 1s 1 normal both running tracking-in-expand;
     }
 
     .calculadora {
-        width: 400px;
         height: 600px;
         text-align: center;
         margin: 0 auto;
@@ -38,14 +34,13 @@ const CalculadoraEstilo = styled.section`
         border-radius: 30px;
         border: 0.5em solid var(--cor-borda-calculadora);
     }
-
+    
     .calculadora h2 {
         text-transform: uppercase;
     }
-
+    
     .calculadora p {
         display: flex;
-        width: 390px;
         height: 40px;
         margin: 1em 0;
         padding-right: 0.5em;
@@ -54,48 +49,70 @@ const CalculadoraEstilo = styled.section`
         background-color: var(--cor-teclas-calculadora);
         border: 2px solid;
         border-radius: 10px;
-
+        color: black;
         font-size: 20px;
         font-weight: 900;
     }
-
-
-    .calculadora__tabela td{
-       padding: 0.5em;
-    }
-
-
-
+    
     .botao {
-        width: 80px;
-        height: 80px;
         font-size: 35px;
         cursor: pointer;
         border: 1px solid;
         background: var(--cor-teclas-calculadora);
         transition-duration: 0.5s;
     }
-
+    
     .botao:hover {
         background: var(--cor-teclas-destacadas-calculadora);
     }
   
-    .botao-resultado {
-        height: 180px;
+    
+    
+    @media screen and (max-width: 430px) {
+        .calculadora {
+            width: 250px;
+        }
+        .calculadora__tabela td{
+            padding: 0em;
+        }
+        .botao {
+            width: 60px;
+            height: 60px;
+        }
+        .botao-resultado {
+            height: 120px;
+        }
+        
+        .botao-zero {
+            width: 120px;
+        }
     }
-
-    .botao-zero {
-        width: 180px;
+    @media screen and (min-width: 430px) {
+        .calculadora {
+            width: 400px;
+        }
+        .calculadora__tabela td{
+            padding: 0.5em;
+        }
+        .botao {
+            width: 80px;
+            height: 80px;
+        }
+        .botao-resultado {
+            height: 180px;
+        }
+        
+        .botao-zero {
+            width: 180px;
+        }
     }
-
-
-
-`
+    
+    `
 
 export default function Calculadora() {
 
     const [campoExibicao, setCampoExibicao] = useState("");
-
+    
     const paraCadaClickBotao = (tecla) => {
       if (tecla === "x") {
         inserir("*");

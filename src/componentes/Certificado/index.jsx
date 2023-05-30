@@ -6,6 +6,7 @@ const CertificadoEstilo = styled.div`
     flex-direction: column;
     justify-content: space-evenly;
     margin-top: 1em;
+    margin-bottom: 2em;
     padding: 0em 1.2em;
     text-align: center;
     overflow-wrap: break-word;  // Faer o <p> quebrar de linha quando ficar maior que a largura da div

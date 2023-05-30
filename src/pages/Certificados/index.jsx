@@ -26,6 +26,15 @@ import reactTypeScript from "./img/react-typeScript.svg"
 import pythonMundo1 from "./img/python-mundo1.svg"
 import pythonMundo2 from "./img/python-mundo2.svg"
 import pythonMundo3 from "./img/python-mundo3.svg"
+import http from "./img/http.svg"
+import etl from "./img/etl.svg"
+import nodeJsBiblioteca from "./img/nodeJs-biblioteca.svg"
+import nodeJsApiRest from "./img/nodeJs-api-rest.svg"
+import nodeJsBusca from "./img/nodeJs-busca-filtros.svg"
+import mysqlCursoEmVideo from "./img/mysql-curso-em-video.svg"
+import bancoDeDadosSql from "./img/banco-de-dados-sql.svg"
+import agilidade from "./img/agilidade.svg"
+import scrumAgilidade from "./img/scrum-agilidade.svg"
 
 const CertificadosEstilo = styled.section`
     background: var(--cor-fundo);
@@ -263,6 +272,67 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                         titulo="Python 3 – Mundo 3"
                     />
                 </li>
+                <li>
+                   <Certificado
+                        img={http}
+                        titulo="HTTP: entendendo a web por baixo dos panos - 1"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={http}
+                        titulo="HTTP: entendendo a web por baixo dos panos - 2"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={etl}
+                        titulo="ETL com Integration Services: modelo de dados"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={nodeJsBiblioteca}
+                        titulo="Node.js: criando sua primeira biblioteca"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={nodeJsApiRest}
+                        titulo="Node.js: API Rest com Express e MongoDB"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={nodeJsBusca}
+                        titulo="Node.js: buscas, filtros, paginação e erros na API"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={mysqlCursoEmVideo}
+                        titulo="MySQL"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={bancoDeDadosSql}
+                        titulo="Banco de Dados SQL do Zero ao Avançado + Projetos Reais"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={agilidade}
+                        titulo="Agilidade: promovendo a transformação ágil"
+                    />
+                </li>
+                <li>
+                   <Certificado
+                        img={scrumAgilidade}
+                        titulo="Scrum: agilidade em seu projeto"
+                    />
+                </li>
+
             </ul>            
         </CertificadosEstilo>
     )
