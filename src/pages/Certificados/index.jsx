@@ -1,6 +1,9 @@
 import styled from "styled-components"
 import Certificado from "../../componentes/Certificado"
 
+// curriculos
+import certificao from "../PaginaInicial/curriculo/Leonardo-Weder-CV.pdf"
+
 // imagens 
 import htmlCssRed from "./img/html-css-red.svg"
 import HtmlCssPink from "./img/html-css-pink.svg"
@@ -87,250 +90,332 @@ export default function Certificados( {funcEsconderOpcoes} ) {
             <h2 className="certificados-titulos titulos">Certificados</h2>
             <ul>
                 <li>
+                    <a href={certificao} target="_blank" rel="noreferrer">
                     <Certificado
                         img={htmlCssRed}
                         titulo="HTML5 e CSS3 parte 1: crie uma página da Web"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                     <Certificado
                         img={HtmlCssPink}
                         titulo="HTML5 e CSS3 parte 2: posicionamento, listas e navegação"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                     <Certificado
                         img={htmlCssRed}
                         titulo="HTML5 e CSS3 parte 3: trabalhando com formulários"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                     <Certificado
                         img={HtmlCssPink}
                         titulo="HTML5 e CSS3 parte 4: avançando no CSS"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                     <Certificado
                         img={htmlCssPratica}
                         titulo="HTML e CSS: praticando HTML e CSS"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                     <Certificado
                         img={htmlCssRed}
                         titulo="HTML e CSS: cabeçalho, footer e variáveis CSS"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                     <Certificado
                         img={htmlCssRed}
                         titulo="HTML e CSS: estrutura de arquivos e tags"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                     <Certificado
                         img={HtmlCssPink}
                         titulo="HTML e CSS: Classes, posicionamento e Flexbox"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                     <Certificado
                         img={htmlCssResponsivo}
                         titulo="HTML e CSS: responsividade com mobile-first"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={HtmlCssPink}
                         titulo="HTML e CSS: Classes, posicionamento e Flexbox"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={jsOrdenacao}
                         titulo="JavaScript I: algoritmos de ordenação"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={jsObjeto}
                         titulo="Algoritmos com JavaScript: Ordenação e busca"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={jsArrays}
                         titulo="JavaScript: Arrays"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={jsMetodosArrays}
                         titulo="JavaScript: métodos de array"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={jsBasico}
                         titulo="JavaScript: tipos, variáveis e funções"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={jsObjeto}
                         titulo="JavaScript: objeto"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={jsOrientadoObjeto}
                         titulo="JavaScript: programação orientada a objetos"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={jsManipula}
                         titulo="JavaScript: manipulando o DOM"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={jsPaginas}
                         titulo="JavaScript para Web: Crie páginas dinâmicas"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={jsTrataDadosApi}
                         titulo="JavaScript: consumindo e tratando dados de uma API"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={reactComponents}
                         titulo="React: como os componentes funcionam"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={reactPraticando}
                         titulo="React: praticando React com Js"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={reactDesenvolvendo}
                         titulo="React: desenvolvendo com JavaScript"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={reactEmotion}
                         titulo="React: desenvolvendo com JavaScript"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={reactArquivosEstaticos}
                         titulo="React com JavaScript: arquivos estáticos"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={reactRouter}
                         titulo="React: desenvolvendo em React Router com JavaScript"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={reactFullStack}
                         titulo="React: comece seu projeto full stack"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={reactTypeScript}
                         titulo="React: migrando para TypeScript"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={pythonMundo1}
                         titulo="Python 3 – Mundo 1"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={pythonMundo2}
                         titulo="Python 3 – Mundo 2"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={pythonMundo3}
                         titulo="Python 3 – Mundo 3"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={http}
                         titulo="HTTP: entendendo a web por baixo dos panos - 1"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={http}
                         titulo="HTTP: entendendo a web por baixo dos panos - 2"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={etl}
                         titulo="ETL com Integration Services: modelo de dados"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={nodeJsBiblioteca}
                         titulo="Node.js: criando sua primeira biblioteca"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={nodeJsApiRest}
                         titulo="Node.js: API Rest com Express e MongoDB"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={nodeJsBusca}
                         titulo="Node.js: buscas, filtros, paginação e erros na API"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={mysqlCursoEmVideo}
                         titulo="MySQL"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={bancoDeDadosSql}
                         titulo="Banco de Dados SQL do Zero ao Avançado + Projetos Reais"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={agilidade}
                         titulo="Agilidade: promovendo a transformação ágil"
                     />
+                    </a>
                 </li>
                 <li>
+                    <a>
                    <Certificado
                         img={scrumAgilidade}
                         titulo="Scrum: agilidade em seu projeto"
                     />
+                    </a>
                 </li>
 
             </ul>            

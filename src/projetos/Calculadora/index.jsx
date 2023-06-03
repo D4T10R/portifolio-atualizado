@@ -71,6 +71,7 @@ const CalculadoraEstilo = styled.section`
     @media screen and (max-width: 430px) {
         .calculadora {
             width: 250px;
+            height: 440px;
         }
         .calculadora__tabela td{
             padding: 0em;
