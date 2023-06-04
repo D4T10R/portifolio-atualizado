@@ -2,7 +2,31 @@ import styled from "styled-components"
 import Certificado from "../../componentes/Certificado"
 
 // curriculos
-import certificao from "../PaginaInicial/curriculo/Leonardo-Weder-CV.pdf"
+import htmlCssParte1 from "./pdf/Leonardo Weder Veiga Duca - Curso HTML5 e CSS3 parte 1_ crie uma página da Web - Alura.pdf"
+import htmlCssParte2 from "./pdf/Leonardo Weder Veiga Duca - Curso HTML5 e CSS3 parte 2_ posicionamento, listas e navegação - Alura.pdf"
+import htmlCssParte3 from "./pdf/Leonardo Weder Veiga Duca - Curso HTML5 e CSS3 parte 3_ trabalhando com formulários e tabelas - Alura.pdf"
+import htmlCssParte4 from "./pdf/Leonardo Weder Veiga Duca - Curso HTML5 e CSS3 parte 4_ avançando no CSS - Alura.pdf"
+import htmlCssPraticando from "./pdf/Leonardo Weder Veiga Duca - Curso HTML e CSS_ praticando HTML_CSS - Alura.pdf"
+import htmlCssCabecalho from "./pdf/Leonardo Weder Veiga Duca - Curso HTML e CSS_ cabeçalho, footer e variáveis CSS - Alura.pdf"
+import htmlCssArquivosTags from "./pdf/Leonardo Weder Veiga Duca - Curso HTML e CSS_ ambientes de desenvolvimento, estrutura de arquivos e tags - Alura.pdf"
+import htmlCssClassPosicao from "./pdf/Leonardo Weder Veiga Duca - Curso HTML e CSS_ Classes, posicionamento e Flexbox - Alura.pdf"
+import javaScriptOrdenacao from "./pdf/Leonardo Weder Veiga Duca - Curso JavaScript I_ algoritmos de ordenação - Alura.pdf"
+import javaScriptBusca from "./pdf/Leonardo Weder Veiga Duca - Curso Algoritmos com JavaScript II_ aprofundando em algoritmos de ordenação e busca - Alura.pdf"
+import javaScriptArrays from "./pdf/Leonardo Weder Veiga Duca - Curso JavaScript_ Arrays - Alura.pdf"
+import javaScriptMetodos from "./pdf/Leonardo Weder Veiga Duca - Curso JavaScript_ métodos de array - Alura.pdf"
+import javaScriptVariaveis from "./pdf/Leonardo Weder Veiga Duca - Curso JavaScript_ tipos, variáveis e funções - Alura.pdf"
+import javaScriptObjetos from "./pdf/Leonardo Weder Veiga Duca - Curso JavaScript_ objetos - Alura.pdf"
+import javaScriptPOO from "./pdf/Leonardo Weder Veiga Duca - Curso JavaScript_ programação orientada a objetos - Alura.pdf"
+import javaScriptDOM from "./pdf/Leonardo Weder Veiga Duca - Curso JavaScript_ manipulando o DOM - Alura.pdf"
+import javaScriptDinamico from "./pdf/Leonardo Weder Veiga Duca - Curso JavaScript para Web_ Crie páginas dinâmicas - Alura.pdf"
+import javaScriptDadosApi from "./pdf/Leonardo Weder Veiga Duca - Curso JavaScript_ consumindo e tratando dados de uma API - Alura.pdf"
+import reactComponentes from "./pdf/Leonardo Weder Veiga Duca - Curso React_ como os componentes funcionam - Alura.pdf"
+import reactPraticaJs from "./pdf/Leonardo Weder Veiga Duca - Curso React_ praticando React com Js - Alura.pdf"
+import reactDesenvolvimentoJs from "./pdf/Leonardo Weder Veiga Duca - Curso React_ desenvolvendo com JavaScript - Alura.pdf"
+
+
+//JavaScript: Arrays
+
 
 // imagens 
 import htmlCssRed from "./img/html-css-red.svg"
@@ -90,7 +114,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
             <h2 className="certificados-titulos titulos">Certificados</h2>
             <ul>
                 <li>
-                    <a href={certificao} target="_blank" rel="noreferrer">
+                    <a href={htmlCssParte1} target="_blank">
                     <Certificado
                         img={htmlCssRed}
                         titulo="HTML5 e CSS3 parte 1: crie uma página da Web"
@@ -98,7 +122,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={htmlCssParte2} target="_blank">
                     <Certificado
                         img={HtmlCssPink}
                         titulo="HTML5 e CSS3 parte 2: posicionamento, listas e navegação"
@@ -106,7 +130,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={htmlCssParte3} target="_blank">
                     <Certificado
                         img={htmlCssRed}
                         titulo="HTML5 e CSS3 parte 3: trabalhando com formulários"
@@ -114,7 +138,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={htmlCssParte4} target="_blank">
                     <Certificado
                         img={HtmlCssPink}
                         titulo="HTML5 e CSS3 parte 4: avançando no CSS"
@@ -122,7 +146,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={htmlCssPraticando} target="_blank">
                     <Certificado
                         img={htmlCssPratica}
                         titulo="HTML e CSS: praticando HTML e CSS"
@@ -130,7 +154,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={htmlCssCabecalho} target="_blank">
                     <Certificado
                         img={htmlCssRed}
                         titulo="HTML e CSS: cabeçalho, footer e variáveis CSS"
@@ -138,7 +162,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={htmlCssArquivosTags} target="_blank">
                     <Certificado
                         img={htmlCssRed}
                         titulo="HTML e CSS: estrutura de arquivos e tags"
@@ -146,7 +170,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={htmlCssClassPosicao} target="_blank">
                     <Certificado
                         img={HtmlCssPink}
                         titulo="HTML e CSS: Classes, posicionamento e Flexbox"
@@ -162,7 +186,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={htmlCssClassPosicao} target="_blank">
                    <Certificado
                         img={HtmlCssPink}
                         titulo="HTML e CSS: Classes, posicionamento e Flexbox"
@@ -170,7 +194,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={javaScriptOrdenacao} target="_blank">
                    <Certificado
                         img={jsOrdenacao}
                         titulo="JavaScript I: algoritmos de ordenação"
@@ -178,7 +202,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={javaScriptBusca} target="_blank">
                    <Certificado
                         img={jsObjeto}
                         titulo="Algoritmos com JavaScript: Ordenação e busca"
@@ -186,7 +210,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={javaScriptArrays} target="_blank">
                    <Certificado
                         img={jsArrays}
                         titulo="JavaScript: Arrays"
@@ -194,7 +218,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={javaScriptMetodos} target="_blank">
                    <Certificado
                         img={jsMetodosArrays}
                         titulo="JavaScript: métodos de array"
@@ -202,7 +226,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={javaScriptVariaveis} target="_blank">
                    <Certificado
                         img={jsBasico}
                         titulo="JavaScript: tipos, variáveis e funções"
@@ -210,7 +234,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={javaScriptObjetos} target="_blank">
                    <Certificado
                         img={jsObjeto}
                         titulo="JavaScript: objeto"
@@ -218,7 +242,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={javaScriptPOO} target="_blank">
                    <Certificado
                         img={jsOrientadoObjeto}
                         titulo="JavaScript: programação orientada a objetos"
@@ -226,7 +250,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={javaScriptDOM} target="_blank">
                    <Certificado
                         img={jsManipula}
                         titulo="JavaScript: manipulando o DOM"
@@ -234,7 +258,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={javaScriptDinamico} target="_blank">
                    <Certificado
                         img={jsPaginas}
                         titulo="JavaScript para Web: Crie páginas dinâmicas"
@@ -242,7 +266,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={javaScriptDadosApi} target="_blank">
                    <Certificado
                         img={jsTrataDadosApi}
                         titulo="JavaScript: consumindo e tratando dados de uma API"
@@ -250,7 +274,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={reactComponentes} target="_blank">
                    <Certificado
                         img={reactComponents}
                         titulo="React: como os componentes funcionam"
@@ -258,7 +282,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={reactPraticaJs} target="_blank">
                    <Certificado
                         img={reactPraticando}
                         titulo="React: praticando React com Js"
@@ -266,7 +290,7 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href={reactDesenvolvimentoJs} target="_blank">
                    <Certificado
                         img={reactDesenvolvendo}
                         titulo="React: desenvolvendo com JavaScript"
