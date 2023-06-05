@@ -23,10 +23,12 @@ import javaScriptDadosApi from "./pdf/Leonardo Weder Veiga Duca - Curso JavaScri
 import reactComponentes from "./pdf/Leonardo Weder Veiga Duca - Curso React_ como os componentes funcionam - Alura.pdf"
 import reactPraticaJs from "./pdf/Leonardo Weder Veiga Duca - Curso React_ praticando React com Js - Alura.pdf"
 import reactDesenvolvimentoJs from "./pdf/Leonardo Weder Veiga Duca - Curso React_ desenvolvendo com JavaScript - Alura.pdf"
-
-
-//JavaScript: Arrays
-
+import reactComponentesEmotion from "./pdf/Leonardo Weder Veiga Duca - Curso React_ desenvolvendo componentes customizados e acessíveis com Emotion - Alura.pdf"
+import reactArquivoEstatico from "./pdf/Leonardo Weder Veiga Duca - Curso React com JavaScript_ lidando com arquivos estáticos - Alura.pdf"
+import reactNavegacaoRouter from "./pdf/Leonardo Weder Veiga Duca - Curso React_ desenvolvendo em React Router com JavaScript - Alura.pdf"
+import reactProjetoFullStack from "./pdf/Leonardo Weder Veiga Duca - Curso React_ comece seu projeto full stack - Alura.pdf"
+import reactMigrandoTypeScipt from "./pdf/Leonardo Weder Veiga Duca - Curso React_ migrando para TypeScript - Alura.pdf"
+import httpPorDeBaixoDosPanos from "./pdf/Leonardo Weder Veiga Duca - Curso HTTP_ entendendo a web por baixo dos panos - Alura.pdf"
 
 // imagens 
 import htmlCssRed from "./img/html-css-red.svg"
@@ -114,332 +116,279 @@ export default function Certificados( {funcEsconderOpcoes} ) {
             <h2 className="certificados-titulos titulos">Certificados</h2>
             <ul>
                 <li>
-                    <a href={htmlCssParte1} target="_blank">
                     <Certificado
+                        href={htmlCssParte1}
                         img={htmlCssRed}
                         titulo="HTML5 e CSS3 parte 1: crie uma página da Web"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={htmlCssParte2} target="_blank">
                     <Certificado
+                        href={htmlCssParte2}
                         img={HtmlCssPink}
                         titulo="HTML5 e CSS3 parte 2: posicionamento, listas e navegação"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={htmlCssParte3} target="_blank">
                     <Certificado
+                        href={htmlCssParte3}
                         img={htmlCssRed}
                         titulo="HTML5 e CSS3 parte 3: trabalhando com formulários"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={htmlCssParte4} target="_blank">
                     <Certificado
+                        href={htmlCssParte4}
                         img={HtmlCssPink}
                         titulo="HTML5 e CSS3 parte 4: avançando no CSS"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={htmlCssPraticando} target="_blank">
                     <Certificado
+                        href={htmlCssPraticando}
                         img={htmlCssPratica}
                         titulo="HTML e CSS: praticando HTML e CSS"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={htmlCssCabecalho} target="_blank">
                     <Certificado
+                        href={htmlCssCabecalho}
                         img={htmlCssRed}
                         titulo="HTML e CSS: cabeçalho, footer e variáveis CSS"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={htmlCssArquivosTags} target="_blank">
                     <Certificado
+                        href={htmlCssArquivosTags}
                         img={htmlCssRed}
                         titulo="HTML e CSS: estrutura de arquivos e tags"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={htmlCssClassPosicao} target="_blank">
                     <Certificado
+                        href={htmlCssClassPosicao}
                         img={HtmlCssPink}
                         titulo="HTML e CSS: Classes, posicionamento e Flexbox"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a>
                     <Certificado
                         img={htmlCssResponsivo}
                         titulo="HTML e CSS: responsividade com mobile-first"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={htmlCssClassPosicao} target="_blank">
                    <Certificado
+                        href={htmlCssClassPosicao}
                         img={HtmlCssPink}
                         titulo="HTML e CSS: Classes, posicionamento e Flexbox"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={javaScriptOrdenacao} target="_blank">
                    <Certificado
+                        href={javaScriptOrdenacao}
                         img={jsOrdenacao}
                         titulo="JavaScript I: algoritmos de ordenação"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={javaScriptBusca} target="_blank">
                    <Certificado
+                        href={javaScriptBusca}
                         img={jsObjeto}
                         titulo="Algoritmos com JavaScript: Ordenação e busca"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={javaScriptArrays} target="_blank">
                    <Certificado
+                        href={javaScriptArrays}
                         img={jsArrays}
                         titulo="JavaScript: Arrays"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={javaScriptMetodos} target="_blank">
                    <Certificado
+                        href={javaScriptMetodos}
                         img={jsMetodosArrays}
                         titulo="JavaScript: métodos de array"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={javaScriptVariaveis} target="_blank">
                    <Certificado
+                        href={javaScriptVariaveis}
                         img={jsBasico}
                         titulo="JavaScript: tipos, variáveis e funções"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={javaScriptObjetos} target="_blank">
                    <Certificado
+                        href={javaScriptObjetos}
                         img={jsObjeto}
                         titulo="JavaScript: objeto"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={javaScriptPOO} target="_blank">
                    <Certificado
+                        href={javaScriptPOO}
                         img={jsOrientadoObjeto}
                         titulo="JavaScript: programação orientada a objetos"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={javaScriptDOM} target="_blank">
                    <Certificado
+                        href={javaScriptDOM}
                         img={jsManipula}
                         titulo="JavaScript: manipulando o DOM"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={javaScriptDinamico} target="_blank">
                    <Certificado
+                        href={javaScriptDinamico}
                         img={jsPaginas}
                         titulo="JavaScript para Web: Crie páginas dinâmicas"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={javaScriptDadosApi} target="_blank">
                    <Certificado
+                        href={javaScriptDadosApi}
                         img={jsTrataDadosApi}
                         titulo="JavaScript: consumindo e tratando dados de uma API"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={reactComponentes} target="_blank">
                    <Certificado
+                        href={reactComponentes}
                         img={reactComponents}
                         titulo="React: como os componentes funcionam"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={reactPraticaJs} target="_blank">
                    <Certificado
+                        href={reactPraticaJs}
                         img={reactPraticando}
                         titulo="React: praticando React com Js"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a href={reactDesenvolvimentoJs} target="_blank">
-                   <Certificado
+                    <Certificado
+                        href={reactDesenvolvimentoJs}
                         img={reactDesenvolvendo}
                         titulo="React: desenvolvendo com JavaScript"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a>
-                   <Certificado
+                    <Certificado
+                        href={reactComponentesEmotion}
                         img={reactEmotion}
-                        titulo="React: desenvolvendo com JavaScript"
+                        titulo="React: desenvolvendo componentes customizados Emotion"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a>
                    <Certificado
+                        href={reactArquivoEstatico}
                         img={reactArquivosEstaticos}
                         titulo="React com JavaScript: arquivos estáticos"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a>
                    <Certificado
+                        href={reactNavegacaoRouter}
                         img={reactRouter}
                         titulo="React: desenvolvendo em React Router com JavaScript"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a>
                    <Certificado
+                        href={reactProjetoFullStack}
                         img={reactFullStack}
                         titulo="React: comece seu projeto full stack"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a>
                    <Certificado
+                        href={reactMigrandoTypeScipt}
                         img={reactTypeScript}
                         titulo="React: migrando para TypeScript"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a>
                    <Certificado
                         img={pythonMundo1}
                         titulo="Python 3 – Mundo 1"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a>
                    <Certificado
                         img={pythonMundo2}
                         titulo="Python 3 – Mundo 2"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a>
                    <Certificado
                         img={pythonMundo3}
                         titulo="Python 3 – Mundo 3"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a>
+                    
                    <Certificado
+                        href={httpPorDeBaixoDosPanos}
                         img={http}
                         titulo="HTTP: entendendo a web por baixo dos panos - 1"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a>
                    <Certificado
                         img={http}
                         titulo="HTTP: entendendo a web por baixo dos panos - 2"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a>
                    <Certificado
                         img={etl}
                         titulo="ETL com Integration Services: modelo de dados"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a>
                    <Certificado
                         img={nodeJsBiblioteca}
                         titulo="Node.js: criando sua primeira biblioteca"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a>
                    <Certificado
                         img={nodeJsApiRest}
                         titulo="Node.js: API Rest com Express e MongoDB"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a>
                    <Certificado
                         img={nodeJsBusca}
                         titulo="Node.js: buscas, filtros, paginação e erros na API"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a>
                    <Certificado
                         img={mysqlCursoEmVideo}
                         titulo="MySQL"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a>
                    <Certificado
                         img={bancoDeDadosSql}
                         titulo="Banco de Dados SQL do Zero ao Avançado + Projetos Reais"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a>
                    <Certificado
                         img={agilidade}
                         titulo="Agilidade: promovendo a transformação ágil"
                     />
-                    </a>
                 </li>
                 <li>
-                    <a>
                    <Certificado
                         img={scrumAgilidade}
                         titulo="Scrum: agilidade em seu projeto"
                     />
-                    </a>
                 </li>
 
             </ul>            
