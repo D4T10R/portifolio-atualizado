@@ -1,7 +1,12 @@
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import styled from "styled-components"
 
 import curriculo from '../../pages/PaginaInicial/curriculo/Leonardo-Weder-CV.pdf'
+
+import iconeGit from './ApresentacaoPadrao/img/icone-git.svg'
+import iconeLinkedin from './ApresentacaoPadrao/img/icone-linkedin.svg'
+import iconeEmail from './ApresentacaoPadrao/img/icones-email.svg'
+
 
 const ApresentacaoSection = styled.section`
     display: flex;
@@ -9,6 +14,13 @@ const ApresentacaoSection = styled.section`
     align-items: center;
     height: 30vh;
     background: var(--cor-fundo);
+
+    .icones {
+        display: flex;
+        justify-content: space-evenly;
+        width: 150px;
+        margin-bottom: 1.5em;
+    }
 
     .apresentacao__descricao {
         text-align: center;
@@ -44,9 +56,14 @@ const ApresentacaoSection = styled.section`
         text-align: center;
         padding-bottom: 2em;
 
+        .icone {
+            width: 125%;
+        }
+
         .apresentacao__descricao__texto {
             display: none;
         }
+
 
     }
 
@@ -56,8 +73,16 @@ const ApresentacaoSection = styled.section`
         flex-direction: row;
         align-items: center;
 
-        .apresentacao__imagem img {
+        .rosto {
             width: 200px;
+        }
+
+        .icones {
+            width: 240px;
+        }
+
+        .icone {
+            width: 155%;
         }
 
         .apresentacao__descricao {
@@ -108,7 +133,18 @@ const Apresentacao = () => {
             <ApresentacaoSection>
 
                 <div className="apresentacao__imagem">
-                    <img src="/img/rosto.svg" alt="" />
+                    <img src="/img/rosto.svg" alt="" className="rosto"/>
+                    <div className='icones'>
+                        <Link to="https://mail.yahoo.com/d/compose/6779046311?.intl=br&.lang=pt-BR" target="_blank">
+                            <img src={iconeEmail} alt="" className='icone' />
+                        </Link>
+                        <Link to="https://www.linkedin.com/in/leonardo-weder-veiga-duca-a1bb531b6/" target="_blank">
+                            <img src={iconeLinkedin} alt="" className='icone' />
+                        </Link>
+                        <Link to="https://github.com/D4T10R" target="_blank">
+                            <img src={iconeGit} alt="GIT-HUB" className='icone' />
+                        </Link>
+                    </div>
                 </div>
                 <div className="apresentacao__descricao">
                     <h1 className="apresentacao__descricao__titulo-principal">DATIOR</h1>
@@ -117,7 +153,7 @@ const Apresentacao = () => {
                     <a
                         className="meu-curriculo"
                         href={curriculo} 
-                        target="_blank"
+                        target="_blank" rel="noreferrer"
                     >
                         Meu curriculo
                     </a>

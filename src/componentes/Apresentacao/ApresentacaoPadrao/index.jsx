@@ -1,6 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import iconeGit from './img/icone-git.svg'
+import iconeLinkedin from './img/icone-linkedin.svg'
+import iconeEmail from './img/icones-email.svg'
+
 const Inicio = styled.section`
     display: flex;
     flex-direction: column;
@@ -14,21 +18,40 @@ const Inicio = styled.section`
         color: var(--cor-titulos);
     }
 
-    img {
+    .rosto {
         width: 35%
+    }
+
+    .icones {
+        display: flex;
+        justify-content: space-evenly;
+        width: 200px;
+    }
+
+    .icone {
+        width: 13%;
     }
 
     @media screen and (min-width: 720px) {
 
-        img {
+        .rosto {
             width: 20%;
+        }
+
+        .icone {
+            width: 15%;
         }
     }
 
     @media screen and (min-width: 1220px) {
-        img {
+        .rosto {
             width: 10%;
         }
+
+        .icone {
+            width: 15%;
+        }
+
     }
 
 `
@@ -42,7 +65,12 @@ const ApresentacaoPadrao = ({funcEsconderOpcoes}) => {
     return (
         <Inicio onClick={esconderOpcoes}>
             <h1 className="inicio__titulo">DATIOR</h1>
-            <img src="../img/rosto.svg" alt="Desenho do Datior no pc"></img>
+            <img src="../img/rosto.svg" alt="Desenho do Datior no pc" className='rosto' />
+            <div className='icones'>
+                <img src={iconeEmail} alt="" className='icone' />
+                <img src={iconeLinkedin} alt="" className='icone' />
+                <img src={iconeGit} alt="GIT-HUB" className='icone' />
+            </div>
         </Inicio>
     )
 }
