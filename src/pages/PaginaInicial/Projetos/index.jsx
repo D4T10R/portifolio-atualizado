@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import ProjetosFeitos from "../../../componentes/Projetos-feitos"
+import VejaMais from "../../../componentes/VejaMais"
 
 const ProjetosEstilo = styled.section`
     display: flex;
@@ -63,7 +64,7 @@ const Projetos = () => {
                     descricao="Trabalho que fiz para minha faculdade utilizando, trello, figma, diagramas UML e muitos outros conhecimentos."
                 />
                 <ProjetosFeitos 
-                    href="https://github.com/D4T10R/combo_plus"
+                    href="https://www.tiktok.com/@d4t10r"
                     src="/img/Img-projetos/tiktok-img.svg"
                     alt="imagem-tik-tok"
                     titulo="tik-tok"
@@ -71,7 +72,7 @@ const Projetos = () => {
                     descricao="Esse foi meu primeiro projeto em html que fiz, achei bem simples HTML e CSS e em pouco tempo fiz outros projetos mais elaborados."
                 />
             </div>
-            
+            <VejaMais link="projetos/"/>
         </ProjetosEstilo>
     )
 }

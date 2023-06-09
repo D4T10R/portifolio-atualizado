@@ -1,6 +1,7 @@
 import Skill from "../../../componentes/Skill"
 
 import styled from "styled-components"
+import VejaMais from "../../../componentes/VejaMais"
 
 const SkillsEstilos = styled.section`
     text-align: center;
@@ -90,6 +91,8 @@ function Skills () {
                     />
                 </ul>
             </div>
+
+            <VejaMais link="skills/"/>
         </SkillsEstilos>
     )
 }

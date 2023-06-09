@@ -5,6 +5,7 @@ export const GlobalStyle = createGlobalStyle`
     
 
     :root {
+        --cor-texto-oculto: rgb(246, 255, 211, 0.3);
         --cor-fundo: #080919;
         --cor-fundo-opcoes: #2D3061;
         --cor-texto: #F6FFD3;
