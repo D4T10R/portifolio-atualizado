@@ -29,6 +29,13 @@ import reactNavegacaoRouter from "./pdf/Leonardo Weder Veiga Duca - Curso React_
 import reactProjetoFullStack from "./pdf/Leonardo Weder Veiga Duca - Curso React_ comece seu projeto full stack - Alura.pdf"
 import reactMigrandoTypeScipt from "./pdf/Leonardo Weder Veiga Duca - Curso React_ migrando para TypeScript - Alura.pdf"
 import httpPorDeBaixoDosPanos from "./pdf/Leonardo Weder Veiga Duca - Curso HTTP_ entendendo a web por baixo dos panos - Alura.pdf"
+import httpPorDeBaixoDosPanos2 from "./pdf/Leonardo Weder Veiga Duca - Curso HTTP_ Entendendo a web por baixo dos panos2 - Alura.pdf"
+import etlComIntegrateServices from "./pdf/Leonardo Weder Veiga Duca - Curso ETL com Integration Services_ modelo de dados - Alura.pdf"
+import nodeJsPrimeiraBiblioteca from "./pdf/Leonardo Weder Veiga Duca - Curso Node.js_ criando sua primeira biblioteca - Alura.pdf"
+import nodeJsApiRestMongoDb from "./pdf/Leonardo Weder Veiga Duca - Curso Node.js_ API Rest com Express e MongoDB - Alura.pdf"
+import nodeJsBuscaApiRest from "./pdf/Leonardo Weder Veiga Duca - Curso Node.js_ lidando com buscas, filtros, paginação e erros em uma API - Alura.pdf"
+import agilidadeTransformacao from "./pdf/Leonardo Weder Veiga Duca - Curso Agilidade_ promovendo a transformação ágil - Alura.pdf"
+import scrumAgilidadeProjeto from "./pdf/Leonardo Weder Veiga Duca - Curso Scrum_ agilidade em seu projeto - Alura.pdf"
 
 // imagens 
 import htmlCssRed from "./img/html-css-red.svg"
@@ -338,30 +345,35 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                 </li>
                 <li>
                    <Certificado
+                        href={httpPorDeBaixoDosPanos2}
                         img={http}
                         titulo="HTTP: entendendo a web por baixo dos panos - 2"
                     />
                 </li>
                 <li>
                    <Certificado
+                        href={etlComIntegrateServices}
                         img={etl}
                         titulo="ETL com Integration Services: modelo de dados"
                     />
                 </li>
                 <li>
                    <Certificado
+                        href={nodeJsPrimeiraBiblioteca}
                         img={nodeJsBiblioteca}
                         titulo="Node.js: criando sua primeira biblioteca"
                     />
                 </li>
                 <li>
                    <Certificado
+                        href={nodeJsApiRestMongoDb}
                         img={nodeJsApiRest}
                         titulo="Node.js: API Rest com Express e MongoDB"
                     />
                 </li>
                 <li>
                    <Certificado
+                        href={nodeJsBuscaApiRest}
                         img={nodeJsBusca}
                         titulo="Node.js: buscas, filtros, paginação e erros na API"
                     />
@@ -380,12 +392,14 @@ export default function Certificados( {funcEsconderOpcoes} ) {
                 </li>
                 <li>
                    <Certificado
+                        href={agilidadeTransformacao}
                         img={agilidade}
                         titulo="Agilidade: promovendo a transformação ágil"
                     />
                 </li>
                 <li>
                    <Certificado
+                        href={scrumAgilidadeProjeto}
                         img={scrumAgilidade}
                         titulo="Scrum: agilidade em seu projeto"
                     />

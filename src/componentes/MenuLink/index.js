@@ -5,6 +5,10 @@ import { Link, useLocation } from 'react-router-dom'
 const StyledLink = styled(Link)`
     color: white;
     text-decoration: none;
+
+    :hover {
+        color: var(--cor-titulos);
+    }
 `
 
 export default function MenuLink({ children, to }) {

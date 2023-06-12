@@ -17,6 +17,7 @@ const CertificadoEstilo = styled.div`
         flex-direction: column;
         justify-content: space-evenly;
         gap: 1em;
+        text-decoration: none;
         
         img {
             height: 45%;

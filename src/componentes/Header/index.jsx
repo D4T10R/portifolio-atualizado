@@ -16,10 +16,7 @@ const ConjuntoOpcoes = styled.div`
         width: 50%;
         top: 1%;
         border-radius: 10px;
-        
-        li:hover {
-                color: red;
-        }
+
 
         ul {
                 list-style-type: none;
@@ -61,15 +58,14 @@ const ConjuntoOpcoes = styled.div`
                         margin: 0 0.5em;
                         text-transform: uppercase;
                 }
-
         }
 
         @media screen and (min-width: 1440px) {
-                width: 70%;
+                width: 60%;
         } 
 
         @media screen and (min-width: 1555px) {
-                width: 65%;
+                width: 55%;
         }
 `
 const Cabecalho = styled.header`
@@ -148,13 +144,6 @@ function Header({opcoesRef, funcMostrarOpcoes}) {
                                                         to='/projetos'
                                                 >
                                                         Projetos
-                                                </MenuLink>
-                                        </li>
-                                        <li>
-                                                <MenuLink
-                                                        to='/Contatos'
-                                                >
-                                                        Contatos
                                                 </MenuLink>
                                         </li>
                                         <li>
